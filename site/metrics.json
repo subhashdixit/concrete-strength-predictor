@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "source_sha256": "710076c66b9ca3f8050e7942f3dcbdbe04013534daeb0077ffd3079a52d8e0c4",
   "source_path": "data/Concrete_Data.xls",
-  "source_notice": "Yeh, I. (2007). Concrete Compressive Strength. UCI Machine Learning Repository. DOI 10.24432/C5PK67. CC BY 4.0. Official UCI 165 spreadsheet, unchanged; columns renamed for serving.",
+  "source_notice": "Yeh, I. (1998). Concrete Compressive Strength. UCI Machine Learning Repository. DOI 10.24432/C5PK67. CC BY 4.0. Official UCI 165 spreadsheet, unchanged; columns renamed for serving.",
   "original_rows": 1030,
   "valid_target_rows": 1030,
   "out_of_range_values_imputed": {},

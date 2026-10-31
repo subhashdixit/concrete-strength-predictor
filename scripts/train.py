@@ -69,7 +69,7 @@ def source(_project) -> tuple:
         field(c, 0, 2000, label=c.replace("_", " ") + " (kg/m³)") for c in columns[:7]
     ] + [field("age", 1, 365, label="Curing age (days)", integer=True)]
     notice = (
-        "Yeh, I. (2007). Concrete Compressive Strength. UCI Machine L"
+        "Yeh, I. (1998). Concrete Compressive Strength. UCI Machine L"
         "earning Repository. DOI 10.24432/C5PK67. CC BY 4.0. Official"
         " UCI 165 spreadsheet, unchanged; columns renamed for serving"
         "."

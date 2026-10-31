@@ -32,7 +32,7 @@ The original repository was `Concrete_Compressive_Strength_Prediction`. Existing
 - Original source rows: **1,030**; valid-target rows used: **1,030**.
 - Source SHA-256: `710076c66b9ca3f8050e7942f3dcbdbe04013534daeb0077ffd3079a52d8e0c4`.
 - Selected features: **8**. [Full names, units, categories and bounds](docs/feature-contract.md).
-- Attribution/provenance: Yeh, I. (2007). Concrete Compressive Strength. UCI Machine Learning Repository. DOI 10.24432/C5PK67. CC BY 4.0. Official UCI 165 spreadsheet, unchanged; columns renamed for serving.
+- Attribution/provenance: Yeh, I. (1998). Concrete Compressive Strength. UCI Machine Learning Repository. DOI 10.24432/C5PK67. CC BY 4.0. Official UCI 165 spreadsheet, unchanged; columns renamed for serving.
 
 Source numeric values outside the documented serving contract are counted and treated as missing in training, rather than being silently converted to valid measurements. The counts are recorded in [reports/metrics.json](reports/metrics.json). Unsupported targets are excluded. Categories are normalized using the documented source adapter.
 

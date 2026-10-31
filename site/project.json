@@ -1,0 +1,13 @@
+{
+  "old": "Concrete_Compressive_Strength_Prediction",
+  "name": "concrete-strength-predictor",
+  "title": "Concrete Strength Lab",
+  "kind": "regression",
+  "target": "strength",
+  "unit": "MPa",
+  "color": "#8d6735",
+  "intro": "Explore compressive strength from mix ingredients and curing age in the UCI concrete dataset.",
+  "limitations": "Ingredient amounts are kg per cubic metre; strength is MPa. Predictions do not certify a structural mix, replace laboratory tests or establish compliance with a design standard.",
+  "positiveLabel": "1",
+  "negativeLabel": "0"
+}

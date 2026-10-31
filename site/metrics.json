@@ -1,0 +1,47 @@
+{
+  "version": "1.0.0",
+  "source_sha256": "710076c66b9ca3f8050e7942f3dcbdbe04013534daeb0077ffd3079a52d8e0c4",
+  "source_path": "data/Concrete_Data.xls",
+  "source_notice": "Yeh, I. (2007). Concrete Compressive Strength. UCI Machine Learning Repository. DOI 10.24432/C5PK67. CC BY 4.0. Official UCI 165 spreadsheet, unchanged; columns renamed for serving.",
+  "original_rows": 1030,
+  "valid_target_rows": 1030,
+  "out_of_range_values_imputed": {},
+  "selected_model": "random_forest",
+  "kind": "regression",
+  "threshold": 0.5,
+  "split": {
+    "train": 620,
+    "validation": 210,
+    "test": 200
+  },
+  "split_method": "GroupShuffleSplit; identical selected profiles share a group",
+  "validation_candidates": {
+    "linear": {
+      "rows": 210,
+      "mae": 8.661449608190967,
+      "rmse": 11.016626479156093,
+      "r2": 0.5453339885591899
+    },
+    "random_forest": {
+      "rows": 210,
+      "mae": 4.21464106619475,
+      "rmse": 5.710987125530663,
+      "r2": 0.8778150818354495
+    }
+  },
+  "test": {
+    "rows": 200,
+    "mae": 4.386029841635479,
+    "rmse": 6.408361660475466,
+    "r2": 0.8550191983463055
+  },
+  "test_baseline": {
+    "rows": 200,
+    "mae": 13.58795483072835,
+    "rmse": 16.842868817249535,
+    "r2": -0.0014945771525247675
+  },
+  "training_only_preprocessing": true,
+  "sklearn_version": "1.6.1",
+  "artifact_sha256": "ccf1c7de78a6054aeee5c393943696649529a50da8654814066efb044b289218"
+}
